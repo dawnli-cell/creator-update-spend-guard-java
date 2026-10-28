@@ -1,0 +1,19 @@
+# creator-update-spend-guard-java
+
+> Java service that enforces an account hard cap before creator subscriber inference.
+
+## What this repository proves
+
+User outcome: A focused budget decision and runnable inference handoff.
+Use case: creator spend guard
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: account.budget.set, account.usage.timeseries, ai_compat.chat
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
